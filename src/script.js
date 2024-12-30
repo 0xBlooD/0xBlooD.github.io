@@ -22,7 +22,11 @@ function scrollDown() {
 }
 
 const btnScrollUp = document.getElementById("scroll-up");
-btnScrollUp.addEventListener("click", function (event) { scrollUp(); });
+btnScrollUp.addEventListener("click", function () {
+  scrollUp();
+});
 
 const btnScrollDown = document.getElementById("scroll-down");
-btnScrollDown.addEventListener("click", function (event) { scrollDown(); });
+btnScrollDown.addEventListener("click", function () {
+  scrollDown();
+});
