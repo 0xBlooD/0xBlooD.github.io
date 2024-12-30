@@ -1,18 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>404 Not Found</title>
-  <link rel="stylesheet" href="./src/style.css">
-</head>
-<body class="@container relative z-0 text-white bg-black flex flex-col justify-center items-center appearance-none select-none pointer-event-none">
-  <header class="absolute top-0 w-full h-fit z-50 flex flex-row justify-between items-center">XXX</header>
-  <main class="relative w-screen h-screen z-10 overflow-x-hidden no-scrollbar snap-y snap-mandatory scroll-smooth">
-    <section class="relative w-full h-full z-20 snap-always snap-center flex flex-row justify-center items-center">A</section>
-    <section class="relative w-full h-full z-20 snap-always snap-center flex flex-row justify-center items-center">B</section>
-  </main>
-  <footer class="absolute bottom-0 w-fit h-fit z-50 flex flex-row justify-between items-center">XXX</footer>
-  <script src="./src/script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 Not Found</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+
+  <body
+    class="@container relative z-0 text-white bg-black flex flex-col justify-center items-center appearance-none select-none pointer-event-none scroll-smooth"
+  >
+    <header
+      class="absolute top-0 w-full h-fit z-50 flex flex-row justify-between items-center"
+    >
+      <button id="scroll-down" type="button">Scroll Down</button>
+    </header>
+    <main
+      class="relative w-screen h-screen z-10 overflow-x-hidden no-scrollbar"
+    >
+      <section
+        class="relative w-full h-full z-20 flex flex-row justify-center items-center"
+      >
+        A
+      </section>
+      <section
+        class="relative w-full h-full z-20 flex flex-row justify-center items-center"
+      >
+        B
+      </section>
+    </main>
+    <footer
+      class="absolute bottom-0 w-fit h-fit z-50 flex flex-row justify-between items-center"
+    >
+      <button id="scroll-up" type="button">Scroll Up</button>
+    </footer>
+    <script type="module" src="./src/script.js"></script>
+  </body>
 </html>
