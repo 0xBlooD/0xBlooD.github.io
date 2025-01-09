@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -12,4 +14,32 @@
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
   }
+}
+
+.body {
+  @apply @container relative z-0 text-white font-firacode select-none bg-black flex flex-col justify-center items-center appearance-none scroll-smooth;
+}
+
+.header {
+  @apply absolute top-0 w-full h-fit z-50 px-2 py-1 flex flex-row justify-between items-center;
+}
+
+.main {
+  @apply relative w-screen h-screen z-10 overflow-x-hidden no-scrollbar;
+}
+
+.section {
+  @apply relative w-full h-full z-20 py-10 flex flex-row justify-center items-center gap-2;
+}
+
+.content {
+  @apply relative w-full h-full z-30 flex flex-col justify-center;
+}
+
+.verticalrule {
+  @apply relative w-px h-full z-50 bg-gradient-to-b from-transparent via-white to-transparent opacity-25;
+}
+
+.footer {
+  @apply absolute bottom-0 w-fit h-fit z-50 px-2 py-1 flex flex-row justify-between items-center;
 }

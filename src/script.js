@@ -1,12 +1,16 @@
 const parent = document.querySelector("main");
 const scrollYPerView = window.innerHeight;
+const btnScrollUp = document.getElementById("scroll-up");
+const btnScrollDown = document.getElementById("scroll-down");
 
 parent.addEventListener("wheel", function (event) {
   event.preventDefault();
 
   if (event.deltaY > 0) {
+    btnScrollUp.setAttribute("disabled", true);
     scrollDown();
   } else if (event.deltaY < 0) {
+    btnScrollDown.setAttribute("disabled", true);
     scrollUp();
   }
 });
@@ -21,12 +25,6 @@ function scrollDown() {
   parent.scrollTo({ top: newScrollPosition, behavior: "smooth" });
 }
 
-const btnScrollUp = document.getElementById("scroll-up");
-btnScrollUp.addEventListener("click", function () {
-  scrollUp();
-});
+btnScrollUp.onclick = function () { scrollUp(); };
 
-const btnScrollDown = document.getElementById("scroll-down");
-btnScrollDown.addEventListener("click", function () {
-  scrollDown();
-});
+btnScrollDown.onclick = function () { scrollDown(); };

@@ -2,7 +2,11 @@
 export default {
   content: ["./index.html", "./scr/*.{css,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'firacode': ['"Fira Code"', 'monospace'],
+      }
+    },
   },
   plugins: [
     require('@tailwindcss/container-queries')
