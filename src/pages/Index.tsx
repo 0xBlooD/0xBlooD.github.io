@@ -128,7 +128,7 @@ const Index = () => {
           {portfolioData.ascii}
         </pre>
         <div className="mt-4 text-muted-foreground text-sm">
-          GNU GRUB version 2.06 — {portfolioData.name}'s Portfolio
+          GNU GRUB version {new Date().getFullYear()}.{String(new Date().getMonth() + 1).padStart(2, '0')}
         </div>
         <div className="border-b border-border mt-2" />
       </div>
