@@ -13,12 +13,12 @@ const SEO = ({ title, description, section }: SEOProps) => {
   useEffect(() => {
     // Update document title
     if (title) {
-      document.title = `${title} | 0xBlooD`;
+      document.title = `${title} | Hélitto Souza Ferreira`;
     } else if (section) {
       const sectionTitle = t(`nav.${section}`);
-      document.title = `${sectionTitle} | 0xBlooD`;
+      document.title = `${sectionTitle} | Hélitto Souza Ferreira`;
     } else {
-      document.title = "0xBlooD | Full-Stack Developer | PHP Laravel & JavaScript";
+      document.title = "Hélitto Souza Ferreira | Full-Stack Developer | PHP Laravel & JavaScript";
     }
 
     // Update meta description
