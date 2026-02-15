@@ -18,10 +18,10 @@
   "about": {
     "title": "Sobre Mim",
     "bio": {
-      "line1": "Desenvolvedor Full Stack com mais de 5 anos de experiência criando aplicações web.",
-      "line2": "Apaixonado por código aberto, Linux e arquitetura de código limpo.",
-      "line3": "Atualmente baseado em São Francisco, CA.",
-      "line4": "Interesses: Programação de sistemas, DevOps, teclados mecânicos, café."
+      "line1": "Desenvolvedor Full-Stack com 2 anos de experiência na transição para Mid-Level, graduado em Tecnologia em Banco de Dados (2020-2022).",
+      "line2": "Base construída no ecossistema PHP (Laravel 8-12) e JavaScript (Vue, React), impulsionado por mentalidade analítica de formação em Cibersegurança.",
+      "line3": "Atualmente focado em elevar a qualidade do código priorizando arquitetura de software, performance e escalabilidade.",
+      "line4": "Prospero resolvendo problemas complexos com soluções elegantes, aplicando Design Patterns e melhores práticas."
     },
     "contact": {
       "email": "Email",
@@ -34,28 +34,37 @@
     "title": "Experiência",
     "jobs": {
       "senior": {
-        "title": "Desenvolvedor Full Stack Sênior",
-        "company": "TechCorp Inc.",
-        "period": "2022-01 — presente",
-        "desc1": "Liderou migração de aplicativo monolítico para arquitetura de microsserviços",
-        "desc2": "Reduziu o tempo de resposta da API em 60% através de otimização de consultas",
-        "desc3": "Orientou equipe de 4 desenvolvedores juniores"
+        "title": "Desenvolvedor Full-Stack (Freelance)",
+        "company": "Adaptlab",
+        "period": "2025-07 — presente",
+        "desc1": "Trabalhando em sistemas de alta escala para o setor de ortodontia digital (moldes e contenções)",
+        "desc2": "Liderou desenvolvimento de portal de pedidos usando Laravel 12 e Blade com GraphQL e infraestrutura AWS",
+        "desc3": "Otimizou consultas de banco de dados (JOINs, Window Functions) e caching, reduzindo tempos de resposta em 30%"
       },
       "fullstack": {
-        "title": "Desenvolvedor Full Stack",
-        "company": "StartupXYZ",
-        "period": "2020-03 — 2021-12",
-        "desc1": "Construiu recursos de colaboração em tempo real usando WebSockets",
-        "desc2": "Implementou pipeline CI/CD reduzindo tempo de deploy em 80%",
-        "desc3": "Projetou e construiu API RESTful atendendo mais de 10 mil usuários diários"
+        "title": "Desenvolvedor Full-Stack Júnior",
+        "company": "Kayser Informática",
+        "period": "2024-03 — presente",
+        "desc1": "Entregou sistema completo de gestão hospitalar usando Laravel 10 + VueJS",
+        "desc2": "Liderando desenvolvimento de API centralizadora para cálculos fiscais e emissão de notas (Reforma Tributária)",
+        "desc3": "Melhorou pipelines CI/CD, reduzindo erros manuais e downtime em 40%",
+        "desc4": "Revisor técnico em mais de 15 pull requests mensais, reduzindo bugs em 25%"
       },
       "junior": {
-        "title": "Desenvolvedor Júnior",
-        "company": "WebAgency Co.",
-        "period": "2018-06 — 2020-02",
-        "desc1": "Desenvolveu aplicações web responsivas para mais de 15 clientes",
-        "desc2": "Integrou APIs de terceiros e gateways de pagamento",
-        "desc3": "Escreveu testes unitários e de integração alcançando 90% de cobertura"
+        "title": "Desenvolvedor PHP / DevOps (Freelance)",
+        "company": "Marke Sistemas",
+        "period": "2024-07 — 2024-12",
+        "desc1": "Realizou manutenção evolutiva em sistemas ERP usando Laravel 8 + Blade",
+        "desc2": "Colaborou em sistemas de automação do WhatsApp Business integrados com React",
+        "desc3": "Forneceu consultoria DevOps para migrações de servidor e containerização usando Docker Compose"
+      },
+      "instructor": {
+        "title": "Instrutor de TI e Infraestrutura",
+        "company": "Escola Bridge",
+        "period": "2023-05 — 2024-08",
+        "desc1": "Ministrou aulas teóricas e práticas sobre montagem, manutenção e arquitetura de computadores",
+        "desc2": "Treinou alunos em sistemas operacionais (Windows e Linux)",
+        "desc3": "Forneceu demonstrações práticas de administração de rede com Active Directory"
       }
     }
   },
@@ -63,20 +72,20 @@
     "title": "Projetos",
     "list": {
       "cloudDeploy": {
-        "name": "cloud-deploy-cli",
-        "description": "Ferramenta CLI para implantação automatizada de infraestrutura em nuvem"
+        "name": "hospital-management-system",
+        "description": "Sistema completo de gestão hospitalar para oncologia e saúde"
       },
       "realtimeChat": {
-        "name": "realtime-chat",
-        "description": "Aplicativo de chat em tempo real com criptografia de ponta a ponta"
+        "name": "tax-api-centralizer",
+        "description": "API centralizadora para cálculos fiscais e emissão de notas (Reforma Tributária)"
       },
       "logAnalyzer": {
-        "name": "log-analyzer",
-        "description": "Plataforma distribuída de agregação e análise de logs"
+        "name": "orthodontics-flow-control",
+        "description": "Sistema de controle de fluxo de produção para ortodontia digital"
       },
       "dotfiles": {
-        "name": "dotfiles",
-        "description": "Scripts de configuração pessoal para Linux/macOS"
+        "name": "whatsapp-business-automation",
+        "description": "Sistema de automação do WhatsApp Business com integrações de APIs de terceiros"
       }
     }
   },

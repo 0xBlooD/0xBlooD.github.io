@@ -18,10 +18,10 @@
   "about": {
     "title": "About Me",
     "bio": {
-      "line1": "Full Stack Developer with 5+ years of experience building web applications.",
-      "line2": "Passionate about open source, Linux, and clean code architecture.",
-      "line3": "Currently based in San Francisco, CA.",
-      "line4": "Interests: Systems programming, DevOps, mechanical keyboards, coffee."
+      "line1": "Full-Stack Developer with 2 years of experience in the Mid-Level transition, holding a Database Technology degree (2020-2022).",
+      "line2": "Foundation built in PHP ecosystem (Laravel 8-12) and JavaScript (Vue, React), driven by analytical mindset from Cybersecurity background.",
+      "line3": "Currently focused on elevating code quality by prioritizing software architecture, performance, and scalability.",
+      "line4": "Thrive on solving complex problems with elegant solutions, applying Design Patterns and best practices."
     },
     "contact": {
       "email": "Email",
@@ -34,28 +34,37 @@
     "title": "Experience",
     "jobs": {
       "senior": {
-        "title": "Senior Full Stack Developer",
-        "company": "TechCorp Inc.",
-        "period": "2022-01 — present",
-        "desc1": "Led migration of monolithic app to microservices architecture",
-        "desc2": "Reduced API response time by 60% through query optimization",
-        "desc3": "Mentored team of 4 junior developers"
+        "title": "Full-Stack Developer (Freelance)",
+        "company": "Adaptlab",
+        "period": "2025-07 — present",
+        "desc1": "Working on high-scale systems for digital orthodontics sector (molds and retainers)",
+        "desc2": "Led development of customer order portal using Laravel 12 and Blade with GraphQL and AWS infrastructure",
+        "desc3": "Optimized database queries (JOINs, Window Functions) and caching, reducing response times by 30%"
       },
       "fullstack": {
-        "title": "Full Stack Developer",
-        "company": "StartupXYZ",
-        "period": "2020-03 — 2021-12",
-        "desc1": "Built real-time collaboration features using WebSockets",
-        "desc2": "Implemented CI/CD pipeline reducing deploy time by 80%",
-        "desc3": "Designed and built RESTful API serving 10k+ daily users"
+        "title": "Junior Full-Stack Developer",
+        "company": "Kayser Informática",
+        "period": "2024-03 — present",
+        "desc1": "Delivered complete hospital management system using Laravel 10 + VueJS",
+        "desc2": "Leading development of centralizing API for tax calculations and invoice issuance (Brazil's Tax Reform)",
+        "desc3": "Improved CI/CD pipelines, reducing manual errors and downtime by 40%",
+        "desc4": "Technical reviewer on 15+ pull requests monthly, reducing bugs by 25%"
       },
       "junior": {
-        "title": "Junior Developer",
-        "company": "WebAgency Co.",
-        "period": "2018-06 — 2020-02",
-        "desc1": "Developed responsive web applications for 15+ clients",
-        "desc2": "Integrated third-party APIs and payment gateways",
-        "desc3": "Wrote unit and integration tests achieving 90% coverage"
+        "title": "PHP Developer / DevOps (Freelance)",
+        "company": "Marke Sistemas",
+        "period": "2024-07 — 2024-12",
+        "desc1": "Performed evolutionary maintenance on ERP systems using Laravel 8 + Blade",
+        "desc2": "Collaborated on WhatsApp Business automation systems integrated with React",
+        "desc3": "Provided DevOps consulting for server migrations and containerization using Docker Compose"
+      },
+      "instructor": {
+        "title": "IT and Infrastructure Instructor",
+        "company": "Escola Bridge",
+        "period": "2023-05 — 2024-08",
+        "desc1": "Delivered theoretical and practical classes on computer assembly, maintenance, and architecture",
+        "desc2": "Trained students in operating systems (Windows and Linux)",
+        "desc3": "Provided practical demonstrations of network administration with Active Directory"
       }
     }
   },
@@ -63,20 +72,20 @@
     "title": "Projects",
     "list": {
       "cloudDeploy": {
-        "name": "cloud-deploy-cli",
-        "description": "CLI tool for automated cloud infrastructure deployment"
+        "name": "hospital-management-system",
+        "description": "Complete hospital management system for oncology and healthcare"
       },
       "realtimeChat": {
-        "name": "realtime-chat",
-        "description": "End-to-end encrypted real-time chat application"
+        "name": "tax-api-centralizer",
+        "description": "Centralizing API for tax calculations and invoice issuance (Brazil Tax Reform)"
       },
       "logAnalyzer": {
-        "name": "log-analyzer",
-        "description": "Distributed log aggregation and analysis platform"
+        "name": "orthodontics-flow-control",
+        "description": "Production flow control system for digital orthodontics"
       },
       "dotfiles": {
-        "name": "dotfiles",
-        "description": "Personal Linux/macOS configuration and setup scripts"
+        "name": "whatsapp-business-automation",
+        "description": "WhatsApp Business automation system with third-party API integrations"
       }
     }
   },

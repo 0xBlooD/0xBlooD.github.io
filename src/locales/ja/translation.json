@@ -18,10 +18,10 @@
   "about": {
     "title": "私について",
     "bio": {
-      "line1": "5年以上のWebアプリケーション開発経験を持つフルスタック開発者。",
-      "line2": "オープンソース、Linux、クリーンコードアーキテクチャに情熱を注いでいます。",
-      "line3": "現在カリフォルニア州サンフランシスコ在住。",
-      "line4": "興味：システムプログラミング、DevOps、メカニカルキーボード、コーヒー。"
+      "line1": "ミッドレベルへの移行中の2年の経験を持つフルスタック開発者、データベース技術学位保持者（2020-2022）。",
+      "line2": "PHPエコシステム（Laravel 8-12）とJavaScript（Vue、React）で基礎を構築、サイバーセキュリティ背景から分析的思考を持つ。",
+      "line3": "現在、ソフトウェアアーキテクチャ、パフォーマンス、スケーラビリティを優先してコード品質の向上に注力。",
+      "line4": "デザインパターンとベストプラクティスを適用し、エレガントなソリューションで複雑な問題を解決することに情熱を持つ。"
     },
     "contact": {
       "email": "メール",
@@ -34,28 +34,37 @@
     "title": "経験",
     "jobs": {
       "senior": {
-        "title": "シニアフルスタック開発者",
-        "company": "TechCorp Inc.",
-        "period": "2022-01 — 現在",
-        "desc1": "モノリシックアプリからマイクロサービスアーキテクチャへの移行を主導",
-        "desc2": "クエリ最適化によりAPI応答時間を60%削減",
-        "desc3": "4人のジュニア開発者のメンターを担当"
+        "title": "フルスタック開発者（フリーランス）",
+        "company": "Adaptlab",
+        "period": "2025-07 — 現在",
+        "desc1": "デジタル矯正歯科セクター（型取りとリテーナー）向けの大規模システムに取り組む",
+        "desc2": "Laravel 12とBladeを使用した顧客注文ポータルの開発を主導、GraphQLとAWSインフラを活用",
+        "desc3": "データベースクエリ（JOIN、ウィンドウ関数）とキャッシングを最適化し、応答時間を30%削減"
       },
       "fullstack": {
-        "title": "フルスタック開発者",
-        "company": "StartupXYZ",
-        "period": "2020-03 — 2021-12",
-        "desc1": "WebSocketsを使用したリアルタイムコラボレーション機能を構築",
-        "desc2": "CI/CDパイプラインを実装しデプロイ時間を80%削減",
-        "desc3": "1日1万人以上のユーザーにサービスを提供するRESTful APIを設計・構築"
+        "title": "ジュニアフルスタック開発者",
+        "company": "Kayser Informática",
+        "period": "2024-03 — 現在",
+        "desc1": "Laravel 10 + VueJSを使用した完全な病院管理システムを提供",
+        "desc2": "税計算と請求書発行のための集中APIの開発を主導（ブラジル税制改革）",
+        "desc3": "CI/CDパイプラインを改善し、手動エラーとダウンタイムを40%削減",
+        "desc4": "月15以上のプルリクエストのテクニカルレビューを担当、バグを25%削減"
       },
       "junior": {
-        "title": "ジュニア開発者",
-        "company": "WebAgency Co.",
-        "period": "2018-06 — 2020-02",
-        "desc1": "15以上のクライアント向けにレスポンシブWebアプリケーションを開発",
-        "desc2": "サードパーティAPIと決済ゲートウェイを統合",
-        "desc3": "90%のカバレッジを達成する単体テストと統合テストを作成"
+        "title": "PHP開発者 / DevOps（フリーランス）",
+        "company": "Marke Sistemas",
+        "period": "2024-07 — 2024-12",
+        "desc1": "Laravel 8 + Bladeを使用したERPシステムの進化的メンテナンスを実施",
+        "desc2": "Reactと統合されたWhatsApp Business自動化システムで協力",
+        "desc3": "Docker Composeを使用したサーバー移行とコンテナ化のDevOpsコンサルティングを提供"
+      },
+      "instructor": {
+        "title": "ITおよびインフラストラクチャインストラクター",
+        "company": "Escola Bridge",
+        "period": "2023-05 — 2024-08",
+        "desc1": "コンピュータの組み立て、メンテナンス、アーキテクチャに関する理論的および実践的な授業を提供",
+        "desc2": "オペレーティングシステム（WindowsとLinux）について学生をトレーニング",
+        "desc3": "Active Directoryを使用したネットワーク管理の実践的なデモンストレーションを提供"
       }
     }
   },
@@ -63,20 +72,20 @@
     "title": "プロジェクト",
     "list": {
       "cloudDeploy": {
-        "name": "cloud-deploy-cli",
-        "description": "自動化されたクラウドインフラストラクチャデプロイメント用CLIツール"
+        "name": "hospital-management-system",
+        "description": "腫瘍学および医療向けの完全な病院管理システム"
       },
       "realtimeChat": {
-        "name": "realtime-chat",
-        "description": "エンドツーエンド暗号化リアルタイムチャットアプリケーション"
+        "name": "tax-api-centralizer",
+        "description": "税計算と請求書発行のための集中API（ブラジル税制改革）"
       },
       "logAnalyzer": {
-        "name": "log-analyzer",
-        "description": "分散ログ集約および分析プラットフォーム"
+        "name": "orthodontics-flow-control",
+        "description": "デジタル矯正歯科のための生産フロー制御システム"
       },
       "dotfiles": {
-        "name": "dotfiles",
-        "description": "個人的なLinux/macOS設定およびセットアップスクリプト"
+        "name": "whatsapp-business-automation",
+        "description": "サードパーティAPI統合を備えたWhatsApp Business自動化システム"
       }
     }
   },

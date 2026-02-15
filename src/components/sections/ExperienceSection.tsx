@@ -24,6 +24,7 @@ const ExperienceSection = () => {
         t("experience.jobs.fullstack.desc1"),
         t("experience.jobs.fullstack.desc2"),
         t("experience.jobs.fullstack.desc3"),
+        t("experience.jobs.fullstack.desc4"),
       ],
     },
     {
@@ -35,6 +36,17 @@ const ExperienceSection = () => {
         t("experience.jobs.junior.desc1"),
         t("experience.jobs.junior.desc2"),
         t("experience.jobs.junior.desc3"),
+      ],
+    },
+    {
+      key: "instructor",
+      title: t("experience.jobs.instructor.title"),
+      company: t("experience.jobs.instructor.company"),
+      period: t("experience.jobs.instructor.period"),
+      description: [
+        t("experience.jobs.instructor.desc1"),
+        t("experience.jobs.instructor.desc2"),
+        t("experience.jobs.instructor.desc3"),
       ],
     },
   ];

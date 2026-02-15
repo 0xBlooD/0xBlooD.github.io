@@ -1,119 +1,106 @@
 export const portfolioData = {
-  name: "John Doe",
-  title: "Full Stack Developer",
-  ascii: `██╗  ██╗███████╗██╗     ██╗████████╗████████╗ ██████╗     ███████╗ ██████╗ ██╗   ██╗███████╗ █████╗     ███████╗███████╗██████╗ ██████╗ ███████╗██╗██████╗  █████╗ 
+  name: "Hélitto Souza Ferreira",
+  title: "Full-Stack Developer",
+  ascii: `
+██╗  ██╗███████╗██╗     ██╗████████╗████████╗ ██████╗     ███████╗ ██████╗ ██╗   ██╗███████╗ █████╗     ███████╗███████╗██████╗ ██████╗ ███████╗██╗██████╗  █████╗ 
 ██║  ██║██╔════╝██║     ██║╚══██╔══╝╚══██╔══╝██╔═══██╗    ██╔════╝██╔═══██╗██║   ██║╚══███╔╝██╔══██╗    ██╔════╝██╔════╝██╔══██╗██╔══██╗██╔════╝██║██╔══██╗██╔══██╗
 ███████║█████╗  ██║     ██║   ██║      ██║   ██║   ██║    ███████╗██║   ██║██║   ██║  ███╔╝ ███████║    █████╗  █████╗  ██████╔╝██████╔╝█████╗  ██║██████╔╝███████║
 ██╔══██║██╔══╝  ██║     ██║   ██║      ██║   ██║   ██║    ╚════██║██║   ██║██║   ██║ ███╔╝  ██╔══██║    ██╔══╝  ██╔══╝  ██╔══██╗██╔══██╗██╔══╝  ██║██╔══██╗██╔══██║
 ██║  ██║███████╗███████╗██║   ██║      ██║   ╚██████╔╝    ███████║╚██████╔╝╚██████╔╝███████╗██║  ██║    ██║     ███████╗██║  ██║██║  ██║███████╗██║██║  ██║██║  ██║
-╚═╝  ╚═╝╚══════╝╚══════╝╚═╝   ╚═╝      ╚═╝    ╚═════╝     ╚══════╝ ╚═════╝  ╚═════╝ ╚══════╝╚═╝  ╚═╝    ╚═╝     ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝╚═╝  ╚═╝╚═╝  ╚═╝
-                                                                                                                                                                   `,
+╚═╝  ╚═╝╚══════╝╚══════╝╚═╝   ╚═╝      ╚═╝    ╚═════╝     ╚══════╝ ╚═════╝  ╚═════╝ ╚══════╝╚═╝  ╚═╝    ╚═╝     ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝╚═╝  ╚═╝╚═╝  ╚═╝`,
 
   about: {
     bio: [
-      "Full Stack Developer with 5+ years of experience building web applications.",
-      "Passionate about open source, Linux, and clean code architecture.",
-      "Currently based in San Francisco, CA.",
-      "Interests: Systems programming, DevOps, mechanical keyboards, coffee.",
+      "Full-Stack Developer with 2 years of experience in the Mid-Level transition, holding a Database Technology degree (2020-2022).",
+      "Foundation built in PHP ecosystem (Laravel 8-12) and JavaScript (Vue, React), driven by analytical mindset from Cybersecurity background.",
+      "Currently focused on elevating code quality by prioritizing software architecture, performance, and scalability.",
+      "Thrive on solving complex problems with elegant solutions, applying Design Patterns and best practices.",
     ],
     contact: {
-      email: "john.doe@example.com",
-      github: "github.com/johndoe",
-      linkedin: "linkedin.com/in/johndoe",
-      website: "johndoe.dev",
+      email: "ferreirahelitto@gmail.com",
+      github: "github.com/0xBlooD",
+      linkedin: "linkedin.com/in/helittosf",
     },
   },
 
   experience: [
     {
-      title: "Senior Full Stack Developer",
-      company: "TechCorp Inc.",
-      period: "2022-01 — present",
+      title: "Full-Stack Developer (Freelance)",
+      company: "Adaptlab",
+      period: "2025-07 — present",
       description: [
-        "Led migration of monolithic app to microservices architecture",
-        "Reduced API response time by 60% through query optimization",
-        "Mentored team of 4 junior developers",
+        "Working on high-scale systems for digital orthodontics sector (molds and retainers)",
+        "Led development of customer order portal using Laravel 12 and Blade with GraphQL and AWS infrastructure",
+        "Optimized database queries (JOINs, Window Functions) and caching, reducing response times by 30%",
       ],
     },
     {
-      title: "Full Stack Developer",
-      company: "StartupXYZ",
-      period: "2020-03 — 2021-12",
+      title: "Junior Full-Stack Developer",
+      company: "Kayser Informática",
+      period: "2024-03 — present",
       description: [
-        "Built real-time collaboration features using WebSockets",
-        "Implemented CI/CD pipeline reducing deploy time by 80%",
-        "Designed and built RESTful API serving 10k+ daily users",
+        "Delivered complete hospital management system using Laravel 10 + VueJS",
+        "Leading development of centralizing API for tax calculations and invoice issuance (Brazil's Tax Reform)",
+        "Improved CI/CD pipelines, reducing manual errors and downtime by 40%",
+        "Technical reviewer on 15+ pull requests monthly, reducing bugs by 25%",
       ],
     },
     {
-      title: "Junior Developer",
-      company: "WebAgency Co.",
-      period: "2018-06 — 2020-02",
+      title: "PHP Developer / DevOps (Freelance)",
+      company: "Marke Sistemas",
+      period: "2024-07 — 2024-12",
       description: [
-        "Developed responsive web applications for 15+ clients",
-        "Integrated third-party APIs and payment gateways",
-        "Wrote unit and integration tests achieving 90% coverage",
+        "Performed evolutionary maintenance on ERP systems using Laravel 8 + Blade",
+        "Collaborated on WhatsApp Business automation systems integrated with React",
+        "Provided DevOps consulting for server migrations and containerization using Docker Compose",
+      ],
+    },
+    {
+      title: "IT and Infrastructure Instructor",
+      company: "Escola Bridge",
+      period: "2023-05 — 2024-08",
+      description: [
+        "Delivered theoretical and practical classes on computer assembly, maintenance, and architecture",
+        "Trained students in operating systems (Windows and Linux)",
+        "Provided practical demonstrations of network administration with Active Directory",
       ],
     },
   ],
 
-  projects: [
-    {
-      name: "cloud-deploy-cli",
-      version: "2.4.1",
-      description: "CLI tool for automated cloud infrastructure deployment",
-      tech: ["Go", "AWS SDK", "Terraform"],
-      link: "github.com/johndoe/cloud-deploy-cli",
-    },
-    {
-      name: "realtime-chat",
-      version: "1.2.0",
-      description: "End-to-end encrypted real-time chat application",
-      tech: ["TypeScript", "React", "WebSocket", "Redis"],
-      link: "github.com/johndoe/realtime-chat",
-    },
-    {
-      name: "log-analyzer",
-      version: "3.0.0",
-      description: "Distributed log aggregation and analysis platform",
-      tech: ["Python", "Elasticsearch", "Kafka"],
-      link: "github.com/johndoe/log-analyzer",
-    },
-    {
-      name: "dotfiles",
-      version: "1.0.0",
-      description: "Personal Linux/macOS configuration and setup scripts",
-      tech: ["Bash", "Lua", "Nix"],
-      link: "github.com/johndoe/dotfiles",
-    },
-  ],
+  projects: [],
 
   skills: {
     frontend: [
+      { name: "javascript", version: "ES6+" },
       { name: "typescript", version: "5.3.0" },
       { name: "react", version: "18.2.0" },
+      { name: "vue.js", version: "2.x/3.x" },
       { name: "html5", version: "latest" },
       { name: "css3", version: "latest" },
-      { name: "tailwindcss", version: "3.4.0" },
+      { name: "blade", version: "laravel" },
     ],
     backend: [
-      { name: "node.js", version: "20.10.0" },
-      { name: "python", version: "3.12.0" },
-      { name: "go", version: "1.21.0" },
-      { name: "express", version: "4.18.0" },
-      { name: "fastapi", version: "0.109.0" },
+      { name: "php", version: "8.x" },
+      { name: "laravel", version: "8-12" },
+      { name: "python", version: "3.x" },
+      { name: "graphql", version: "latest" },
+      { name: "rest-api", version: "design" },
+      { name: "delphi", version: "legacy" },
     ],
     database: [
-      { name: "postgresql", version: "16.1" },
+      { name: "mysql", version: "8.0" },
+      { name: "postgresql", version: "16.x" },
       { name: "redis", version: "7.2.0" },
-      { name: "mongodb", version: "7.0.0" },
+      { name: "elasticsearch", version: "8.x" },
     ],
     devops: [
       { name: "docker", version: "24.0.0" },
-      { name: "kubernetes", version: "1.28.0" },
+      { name: "docker-compose", version: "2.x" },
       { name: "git", version: "2.43.0" },
-      { name: "linux", version: "6.6.0" },
-      { name: "aws", version: "2.0.0" },
+      { name: "github-actions", version: "ci/cd" },
+      { name: "linux", version: "ubuntu/debian" },
+      { name: "aws", version: "ec2/s3/rds" },
+      { name: "nginx", version: "1.24" },
     ],
   },
 };
