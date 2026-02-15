@@ -88,18 +88,32 @@ export const portfolioData = {
     },
   ],
 
-  skills: [
-    { name: "typescript", version: "5.3.0", category: "language", level: 95 },
-    { name: "react", version: "18.2.0", category: "framework", level: 92 },
-    { name: "node.js", version: "20.10.0", category: "runtime", level: 90 },
-    { name: "python", version: "3.12.0", category: "language", level: 85 },
-    { name: "go", version: "1.21.0", category: "language", level: 75 },
-    { name: "postgresql", version: "16.1", category: "database", level: 88 },
-    { name: "docker", version: "24.0.0", category: "devops", level: 85 },
-    { name: "kubernetes", version: "1.28.0", category: "devops", level: 70 },
-    { name: "linux", version: "6.6.0", category: "system", level: 90 },
-    { name: "git", version: "2.43.0", category: "tool", level: 92 },
-    { name: "aws", version: "2.0.0", category: "cloud", level: 80 },
-    { name: "redis", version: "7.2.0", category: "database", level: 78 },
-  ],
+  skills: {
+    frontend: [
+      { name: "typescript", version: "5.3.0" },
+      { name: "react", version: "18.2.0" },
+      { name: "html5", version: "latest" },
+      { name: "css3", version: "latest" },
+      { name: "tailwindcss", version: "3.4.0" },
+    ],
+    backend: [
+      { name: "node.js", version: "20.10.0" },
+      { name: "python", version: "3.12.0" },
+      { name: "go", version: "1.21.0" },
+      { name: "express", version: "4.18.0" },
+      { name: "fastapi", version: "0.109.0" },
+    ],
+    database: [
+      { name: "postgresql", version: "16.1" },
+      { name: "redis", version: "7.2.0" },
+      { name: "mongodb", version: "7.0.0" },
+    ],
+    devops: [
+      { name: "docker", version: "24.0.0" },
+      { name: "kubernetes", version: "1.28.0" },
+      { name: "git", version: "2.43.0" },
+      { name: "linux", version: "6.6.0" },
+      { name: "aws", version: "2.0.0" },
+    ],
+  },
 };

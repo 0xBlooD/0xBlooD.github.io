@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "about": "Sobre Mim",
+    "experience": "Experiência",
+    "projects": "Projetos",
+    "skills": "Habilidades",
+    "backToMenu": "Voltar ao menu",
+    "pressEsc": "Pressione ESC para retornar"
+  },
+  "grub": {
+    "version": "GNU GRUB versão",
+    "selectSection": "Selecione uma seção para inicializar:",
+    "autoboot": "A entrada destacada será executada automaticamente em {{count}}s.",
+    "moveUp": "↑↓ para mover",
+    "enter": "Enter para selecionar",
+    "esc": "ESC para voltar"
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "bio": {
+      "line1": "Desenvolvedor Full Stack com mais de 5 anos de experiência criando aplicações web.",
+      "line2": "Apaixonado por código aberto, Linux e arquitetura de código limpo.",
+      "line3": "Atualmente baseado em São Francisco, CA.",
+      "line4": "Interesses: Programação de sistemas, DevOps, teclados mecânicos, café."
+    },
+    "contact": {
+      "email": "Email",
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "website": "Website"
+    }
+  },
+  "experience": {
+    "title": "Experiência",
+    "jobs": {
+      "senior": {
+        "title": "Desenvolvedor Full Stack Sênior",
+        "company": "TechCorp Inc.",
+        "period": "2022-01 — presente",
+        "desc1": "Liderou migração de aplicativo monolítico para arquitetura de microsserviços",
+        "desc2": "Reduziu o tempo de resposta da API em 60% através de otimização de consultas",
+        "desc3": "Orientou equipe de 4 desenvolvedores juniores"
+      },
+      "fullstack": {
+        "title": "Desenvolvedor Full Stack",
+        "company": "StartupXYZ",
+        "period": "2020-03 — 2021-12",
+        "desc1": "Construiu recursos de colaboração em tempo real usando WebSockets",
+        "desc2": "Implementou pipeline CI/CD reduzindo tempo de deploy em 80%",
+        "desc3": "Projetou e construiu API RESTful atendendo mais de 10 mil usuários diários"
+      },
+      "junior": {
+        "title": "Desenvolvedor Júnior",
+        "company": "WebAgency Co.",
+        "period": "2018-06 — 2020-02",
+        "desc1": "Desenvolveu aplicações web responsivas para mais de 15 clientes",
+        "desc2": "Integrou APIs de terceiros e gateways de pagamento",
+        "desc3": "Escreveu testes unitários e de integração alcançando 90% de cobertura"
+      }
+    }
+  },
+  "projects": {
+    "title": "Projetos",
+    "list": {
+      "cloudDeploy": {
+        "name": "cloud-deploy-cli",
+        "description": "Ferramenta CLI para implantação automatizada de infraestrutura em nuvem"
+      },
+      "realtimeChat": {
+        "name": "realtime-chat",
+        "description": "Aplicativo de chat em tempo real com criptografia de ponta a ponta"
+      },
+      "logAnalyzer": {
+        "name": "log-analyzer",
+        "description": "Plataforma distribuída de agregação e análise de logs"
+      },
+      "dotfiles": {
+        "name": "dotfiles",
+        "description": "Scripts de configuração pessoal para Linux/macOS"
+      }
+    }
+  },
+  "skills": {
+    "title": "Habilidades",
+    "command": "tree /mnt/skills",
+    "summary": "{{directories}} diretórios, {{files}} arquivos"
+  }
+}

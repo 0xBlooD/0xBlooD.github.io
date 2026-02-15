@@ -1,12 +1,50 @@
-import { portfolioData } from "@/data/portfolio";
+import { useTranslation } from "react-i18next";
 
 const ExperienceSection = () => {
+  const { t } = useTranslation();
+
+  const jobs = [
+    {
+      key: "senior",
+      title: t("experience.jobs.senior.title"),
+      company: t("experience.jobs.senior.company"),
+      period: t("experience.jobs.senior.period"),
+      description: [
+        t("experience.jobs.senior.desc1"),
+        t("experience.jobs.senior.desc2"),
+        t("experience.jobs.senior.desc3"),
+      ],
+    },
+    {
+      key: "fullstack",
+      title: t("experience.jobs.fullstack.title"),
+      company: t("experience.jobs.fullstack.company"),
+      period: t("experience.jobs.fullstack.period"),
+      description: [
+        t("experience.jobs.fullstack.desc1"),
+        t("experience.jobs.fullstack.desc2"),
+        t("experience.jobs.fullstack.desc3"),
+      ],
+    },
+    {
+      key: "junior",
+      title: t("experience.jobs.junior.title"),
+      company: t("experience.jobs.junior.company"),
+      period: t("experience.jobs.junior.period"),
+      description: [
+        t("experience.jobs.junior.desc1"),
+        t("experience.jobs.junior.desc2"),
+        t("experience.jobs.junior.desc3"),
+      ],
+    },
+  ];
+
   return (
     <div className="space-y-4 text-sm md:text-base">
       <div className="text-muted-foreground">$ journalctl -u career.service --no-pager</div>
       <div className="mt-2 space-y-6 pl-2">
-        {portfolioData.experience.map((job, i) => (
-          <div key={i} className="space-y-1">
+        {jobs.map((job, i) => (
+          <div key={job.key} className="space-y-1">
             <div className="text-muted-foreground">
               -- Unit career.service [{job.period}] --
             </div>

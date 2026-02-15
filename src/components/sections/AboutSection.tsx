@@ -1,6 +1,8 @@
+import { useTranslation } from "react-i18next";
 import { portfolioData } from "@/data/portfolio";
 
 const AboutSection = () => {
+  const { t } = useTranslation();
   const { about, name, title } = portfolioData;
 
   return (
@@ -13,7 +15,12 @@ const AboutSection = () => {
 
       <div className="mt-6 text-muted-foreground">$ cat /var/log/bio.log</div>
       <div className="space-y-1 pl-2">
-        {about.bio.map((line, i) => (
+        {[
+          t("about.bio.line1"),
+          t("about.bio.line2"),
+          t("about.bio.line3"),
+          t("about.bio.line4"),
+        ].map((line, i) => (
           <div key={i} className="text-foreground">{`> ${line}`}</div>
         ))}
       </div>
@@ -27,25 +34,25 @@ const AboutSection = () => {
         <div>
           <div className="text-muted-foreground">2: eth0: &lt;BROADCAST,MULTICAST,UP&gt; mtu 1500</div>
           <div className="pl-4 text-foreground">
-            email: <a href={`mailto:${about.contact.email}`} className="underline hover:text-primary">{about.contact.email}</a>
+            {t("about.contact.email").toLowerCase()}: <a href={`mailto:${about.contact.email}`} className="underline hover:text-primary">{about.contact.email}</a>
           </div>
         </div>
         <div>
           <div className="text-muted-foreground">3: eth1: &lt;BROADCAST,MULTICAST,UP&gt; mtu 1500</div>
           <div className="pl-4 text-foreground">
-            github: <a href={`https://${about.contact.github}`} target="_blank" rel="noopener noreferrer" className="underline hover:text-primary">{about.contact.github}</a>
+            {t("about.contact.github")}: <a href={`https://${about.contact.github}`} target="_blank" rel="noopener noreferrer" className="underline hover:text-primary">{about.contact.github}</a>
           </div>
         </div>
         <div>
           <div className="text-muted-foreground">4: eth2: &lt;BROADCAST,MULTICAST,UP&gt; mtu 1500</div>
           <div className="pl-4 text-foreground">
-            linkedin: <a href={`https://${about.contact.linkedin}`} target="_blank" rel="noopener noreferrer" className="underline hover:text-primary">{about.contact.linkedin}</a>
+            {t("about.contact.linkedin")}: <a href={`https://${about.contact.linkedin}`} target="_blank" rel="noopener noreferrer" className="underline hover:text-primary">{about.contact.linkedin}</a>
           </div>
         </div>
         <div>
           <div className="text-muted-foreground">5: eth3: &lt;BROADCAST,MULTICAST,UP&gt; mtu 1500</div>
           <div className="pl-4 text-foreground">
-            website: <a href={`https://${about.contact.website}`} target="_blank" rel="noopener noreferrer" className="underline hover:text-primary">{about.contact.website}</a>
+            {t("about.contact.website")}: <a href={`https://${about.contact.website}`} target="_blank" rel="noopener noreferrer" className="underline hover:text-primary">{about.contact.website}</a>
           </div>
         </div>
       </div>

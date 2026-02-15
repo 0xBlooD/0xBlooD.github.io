@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "about": "About Me",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "backToMenu": "Back to menu",
+    "pressEsc": "Press ESC to return"
+  },
+  "grub": {
+    "version": "GNU GRUB version",
+    "selectSection": "Select a section to boot:",
+    "autoboot": "The highlighted entry will be executed automatically in {{count}}s.",
+    "moveUp": "↑↓ to move",
+    "enter": "Enter to select",
+    "esc": "ESC to go back"
+  },
+  "about": {
+    "title": "About Me",
+    "bio": {
+      "line1": "Full Stack Developer with 5+ years of experience building web applications.",
+      "line2": "Passionate about open source, Linux, and clean code architecture.",
+      "line3": "Currently based in San Francisco, CA.",
+      "line4": "Interests: Systems programming, DevOps, mechanical keyboards, coffee."
+    },
+    "contact": {
+      "email": "Email",
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "website": "Website"
+    }
+  },
+  "experience": {
+    "title": "Experience",
+    "jobs": {
+      "senior": {
+        "title": "Senior Full Stack Developer",
+        "company": "TechCorp Inc.",
+        "period": "2022-01 — present",
+        "desc1": "Led migration of monolithic app to microservices architecture",
+        "desc2": "Reduced API response time by 60% through query optimization",
+        "desc3": "Mentored team of 4 junior developers"
+      },
+      "fullstack": {
+        "title": "Full Stack Developer",
+        "company": "StartupXYZ",
+        "period": "2020-03 — 2021-12",
+        "desc1": "Built real-time collaboration features using WebSockets",
+        "desc2": "Implemented CI/CD pipeline reducing deploy time by 80%",
+        "desc3": "Designed and built RESTful API serving 10k+ daily users"
+      },
+      "junior": {
+        "title": "Junior Developer",
+        "company": "WebAgency Co.",
+        "period": "2018-06 — 2020-02",
+        "desc1": "Developed responsive web applications for 15+ clients",
+        "desc2": "Integrated third-party APIs and payment gateways",
+        "desc3": "Wrote unit and integration tests achieving 90% coverage"
+      }
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "list": {
+      "cloudDeploy": {
+        "name": "cloud-deploy-cli",
+        "description": "CLI tool for automated cloud infrastructure deployment"
+      },
+      "realtimeChat": {
+        "name": "realtime-chat",
+        "description": "End-to-end encrypted real-time chat application"
+      },
+      "logAnalyzer": {
+        "name": "log-analyzer",
+        "description": "Distributed log aggregation and analysis platform"
+      },
+      "dotfiles": {
+        "name": "dotfiles",
+        "description": "Personal Linux/macOS configuration and setup scripts"
+      }
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "command": "tree /mnt/skills",
+    "summary": "{{directories}} directories, {{files}} files"
+  }
+}
