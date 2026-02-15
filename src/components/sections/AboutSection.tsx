@@ -49,12 +49,6 @@ const AboutSection = () => {
             {t("about.contact.linkedin")}: <a href={`https://${about.contact.linkedin}`} target="_blank" rel="noopener noreferrer" className="underline hover:text-primary">{about.contact.linkedin}</a>
           </div>
         </div>
-        <div>
-          <div className="text-muted-foreground">5: eth3: &lt;BROADCAST,MULTICAST,UP&gt; mtu 1500</div>
-          <div className="pl-4 text-foreground">
-            {t("about.contact.website")}: <a href={`https://${about.contact.website}`} target="_blank" rel="noopener noreferrer" className="underline hover:text-primary">{about.contact.website}</a>
-          </div>
-        </div>
       </div>
     </div>
   );
