@@ -7,6 +7,7 @@ import ExperienceSection from "@/components/sections/ExperienceSection";
 import ProjectsSection from "@/components/sections/ProjectsSection";
 import SkillsSection from "@/components/sections/SkillsSection";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
+import SEO from "@/components/SEO";
 
 type View = "menu" | "booting" | "section";
 
@@ -98,34 +99,39 @@ const Index = () => {
 
   if (view === "section") {
     return (
-      <div className="min-h-screen bg-background crt-glow">
-        <div className="crt-overlay" />
-        <div className="p-4 md:p-8 max-w-4xl mx-auto">
-          <div className="mb-6 flex items-center gap-4 flex-wrap">
-            <button
-              onClick={goBack}
-              className="text-muted-foreground hover:text-foreground transition-colors"
-            >
-              [{t("nav.backToMenu")}]
-            </button>
-            <span className="text-muted-foreground">|</span>
-            <span className="text-muted-foreground">{t("nav.pressEsc")}</span>
-            <span className="text-muted-foreground">|</span>
-            <LanguageSwitcher />
-          </div>
-          {renderSection()}
-          <div className="mt-8 text-muted-foreground text-sm">
-            <span className="cursor-blink">█</span>
+      <>
+        <SEO section={activeSection} />
+        <div className="min-h-screen bg-background crt-glow">
+          <div className="crt-overlay" />
+          <div className="p-4 md:p-8 max-w-4xl mx-auto">
+            <div className="mb-6 flex items-center gap-4 flex-wrap">
+              <button
+                onClick={goBack}
+                className="text-muted-foreground hover:text-foreground transition-colors"
+              >
+                [{t("nav.backToMenu")}]
+              </button>
+              <span className="text-muted-foreground">|</span>
+              <span className="text-muted-foreground">{t("nav.pressEsc")}</span>
+              <span className="text-muted-foreground">|</span>
+              <LanguageSwitcher />
+            </div>
+            {renderSection()}
+            <div className="mt-8 text-muted-foreground text-sm">
+              <span className="cursor-blink">█</span>
+            </div>
           </div>
         </div>
-      </div>
+      </>
     );
   }
 
   // GRUB Menu
   return (
-    <div className="min-h-screen bg-background flex flex-col crt-glow">
-      <div className="crt-overlay" />
+    <>
+      <SEO />
+      <div className="min-h-screen bg-background flex flex-col crt-glow">
+        <div className="crt-overlay" />
 
       {/* Header */}
       <div className="p-4 md:p-8">
@@ -189,7 +195,8 @@ const Index = () => {
           </div>
         )}
       </div>
-    </div>
+      </div>
+    </>
   );
 };
 
